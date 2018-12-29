@@ -9,7 +9,9 @@ defmodule Capelo.CLI do
 
   def process(args) do
     [filename | _] = args
-    IO.puts filename
+    content = File.read! filename
+    IO.puts content
+    IO.inspect Capelo.FrenchLexer.lex(content)
   end
 
   defp parse_args(args) do

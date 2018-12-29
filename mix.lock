@@ -1,0 +1,3 @@
+%{
+  "lex_luthor": {:hex, :lex_luthor, "0.1.1", "c8084c158426a7308271b6e5a3e43771163ef373d53adb091195e0b82cea62b7", [], [], "hexpm"},
+}
